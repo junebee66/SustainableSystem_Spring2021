@@ -1,0 +1,116 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+}
+
+
+/* Main Div Container */
+#item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* Title */
+#head {
+    font-weight: 100;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-family: 'Comfortaa';
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+/*  Button Container */
+button {
+    font-family: 'Comfortaa';
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 900;
+    display: flex;
+}
+
+button:hover {
+    animation: button 2s 1 ease-in-out;
+}
+
+button:focus {
+    outline: none;
+}
+
+.copy {
+    position: absolute;
+    right: 25px;
+    top: -45px;
+    font-weight: 900;
+    margin-top: 3rem;
+    padding: 15px;
+    font-family: 'Comfortaa';
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    background: black;
+    transform: scale(1.25, 1.25);
+}
+
+.copy:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* Button Icon */
+.fa-random {
+    font-size: 40px;
+}
+
+/* RGB Value Generated */
+
+#colorCode {
+    font-weight: 900;
+    font-family: 'Major Mono Display', monospace;
+    padding: 10px;
+    font-size: 1rem;
+    background: transparent;
+    width: 350px;
+    border: none;
+    text-align: center;
+}
+
+
+@keyframes button {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+@media (max-width: 370px){
+    #colorCode {
+        width: 290px;
+    }
+
+    .copy {
+        top: 80%;
+        padding: 10px;
+    }
+}
