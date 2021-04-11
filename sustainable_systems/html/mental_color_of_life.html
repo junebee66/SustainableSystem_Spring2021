@@ -15,7 +15,7 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-64398169-1');</script>
 
     <link rel="stylesheet" type="text/css" href="../css/mental_color_of_life.css">
-     <script type="text/javascript" src="..js/scripts.js"></script>
+     
 
   </head>
   
@@ -24,8 +24,9 @@
       <h1>Mental Color of Plants</h1>
       <p> Please type in your RGB Code</p>
     </header>
-    <div id="color-wheel-container"></div>
-    </label>
+
+<div id="color-wheel-container"></div>
+    
     <div>
       <label class="label-color-element">HEX</label><input id="hex" class="input-color" onchange="colorWheel.hex = this.value">
     </div>
@@ -33,30 +34,23 @@
   <div id="center">
       <table>
         <tr>
-          <td><label class="label-color-element">R</label></td>
+          <td><label class="label-color-element">R (sun level)</label></td>
           <td><input id="rgb-r" type="number" min="0" max="255" class="input-color" oninput="colorWheel.rgb = [parseInt(this.value, 10), colorWheel.rgb[1], colorWheel.rgb[2]]"></td>
         </tr>
         <tr>
-          <td><label class="label-color-element">G</label></td>
+          <td><label class="label-color-element">G (soil temperature)</label></td>
           <td><input id="rgb-g" type="number" size="" min="0" max="255" class="input-color" oninput="colorWheel.rgb = [colorWheel.rgb[0], this.value, colorWheel.rgb[2]]"></td>
         </tr>
         <tr>
-          <td><label class="label-color-element">B</label></td>
+          <td><label class="label-color-element">B (soil moisture)</label></td>
           <td><input id="rgb-b" type="number" min="0" max="255" class="input-color" oninput="colorWheel.rgb = [colorWheel.rgb[0], colorWheel.rgb[1], this.value]"></td>
         </tr>
         <tr>
-          <td><label class="label-color-element">A</label></td>
+          <td><label class="label-color-element">A (ph value)</label></td>
           <td><input id="rgb-b" type="number" min="0" max="1" class="input-color" oninput="colorWheel.rgb = [colorWheel.rgb[0], colorWheel.rgb[1], this.value]"></td>
         </tr>
       </table>
     </div>
-
-
-
-
-
-
-
 
 
       <div id="additional_bottom">
@@ -93,12 +87,6 @@
 
 
 
-
-
-
-    
-
-
     <script src="https://cdn.jsdelivr.net/npm/reinvented-color-wheel@0.3.1"></script>
     <script>
       (function () {
@@ -133,9 +121,6 @@
           },
         })
 
-
-
-        
 
         colorWheel.onChange(colorWheel)
 
