@@ -2,7 +2,7 @@ var canvas;
 
 //site drawing
 function setup(){
-	canvas = createCanvas(windowWidth,windowHeight);
+	canvas = createCanvas(1080,720);
 	canvas.position(270,100);
 	canvas.style('z-index','-1');
 

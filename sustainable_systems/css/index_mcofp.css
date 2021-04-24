@@ -85,7 +85,10 @@ body{
 
 #site {
 	align-items: center;
+}
 
+#site_bg{
+  padding-left:460px;
 }
 
 img{
