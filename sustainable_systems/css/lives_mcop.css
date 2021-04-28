@@ -92,115 +92,51 @@ a:active {
   color:black;
 }
 
-/*date*/
-#date h1{
-  position: absolute;
-  font-family: Avenir;
-  font-size:300px;
-  color:#fbf8e5;
-  -webkit-text-stroke: 2px black;
-  left:140px;
-  top:-130px;
+
+#cat_imgs{
+  display: inline-flex;
+  margin:100px -180px;
+  padding-right:250px;
 
 }
 
-/*time*/
-#date h3{
-  font-family: Avenir;
-  font-size: 50px;
-  color:grey;
-  position:absolute;
-  top:45px;
-  left:980px;
-
+#cat_imgs1{
+  display: column;
+  width:500px;
+  margin-right: -140px;
+  padding-bottom:170px;
 }
 
-
-/*cat*/
-img{
-	width:150px;
-  margin: 110px 700px;
+#cat_imgs2{
+  display: column;
+  width:500px;
+  padding-bottom:170px;
 }
 
-/*-------------ALL BUTTONS------------*/
-/*sun button*/
-/*  #sunBtn{
-    padding-left:1182px;
-    margin-bottom: -50px;
-    padding-top:60px;
-  }
-  .sunBtn{
-    background-color: transparent;
-    color:transparent;
-    border: 5px solid #000000;
-    border-radius: 50px;
-    font-family: "Quicksand", sans-serif;
-    font-size: 10px;
-    font-weight: bold;
-    padding: 25px 5px;
+#cat_imgs img{
+  width:500px;
+  padding-bottom:170px;
   }
 
-  .sunBtn:hover{
-    background-color: black;
-    color:white;
-  }
-
-Lives
-  #lives{
-    padding-left:330px;
-    margin-bottom: -50px;
-    padding-top:0px;
-  }
-  .livesBtn{
-    background-color: transparent;
-    color:transparent;
-    border: 5px solid #000000;
-    border-radius: 50px;
-    font-family: "Quicksand", sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 28px 15px;
-  }
-
-  .livesBtn:hover{
-    background-color: black;
-    color:white;
-  }*/
-
-
-/*tour button */
-
-#tourBtn{
-  margin:500px;
-  margin-bottom: 0px;
-	text-align: center;
-
-}
-.tourBtn{
-	background-color: #FFFFFF;
-	color: #000000;
-	border: 5px solid #000000;
-	border-radius: 40px;
-	font-family: "Quicksand", sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-	padding: 15px 30px;
+#cat{
+  display: inline-flex;
+  border-radius: 25px;
+  background: #73AD21; 
+  height: 540px;
+  width:500px;
+  
 }
 
-.tourBtn:hover{
-	background-color: black;
-	color:#FFFFFF;
+#catt img{
+  width:300px;
 
 }
-
-
-
 
 /*popup set up*/
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
+ /* display: none;*/ /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -244,6 +180,11 @@ Lives
 /*Tour pop-up content*/
 #modal-content{
 	display:inline;
+}
+
+
+#slideshow-container{
+  display:flex;
 }
 
 #slideshow-container img{
