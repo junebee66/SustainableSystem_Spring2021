@@ -45,23 +45,28 @@ table {
 }
 
 
+head{
+  pointer-events:none;
+}
+
 
 body{
-	padding-left: 130px;
-	padding-top: 110px;
 	background-color: #fbf8e5; 
 	font-family: Avenir;
 }
 
 #title{
 	display: flex;
-	margin-bottom:-300px;
+  padding-left: 210px;
+	margin-bottom:-540px;
+  margin-top:-28px;
+  pointer-events:none;
 }
 
 #plus{
-	width:40%;
-	margin-top:-50px;
-	padding-left:100px;
+	width:50%;
+	margin-top:0px;
+	padding-left:50px;
 }
 
 #plus h3{
@@ -74,13 +79,15 @@ body{
 
 #map{
 	width:60%;
-	margin-top: -25px;
-	padding-right: 130px;
+	margin-top:0px;
+	padding-right: 110px;
+  pointer-events:none;
 }
 
 #map h1{
 	color: #9e9c90;
 	font-size: 330px;
+  pointer-events:none;
 }
 
 #site {
@@ -91,18 +98,67 @@ body{
   padding-left:460px;
 }
 
+/*cat*/
 img{
-	width:110px;
-	padding-top:150px;
-	padding-left:600px;
+	width:150px;
+  margin: 110px 700px;
 }
+
+/*-------------ALL BUTTONS------------*/
+/*sun button*/
+  #sunBtn{
+    padding-left:1182px;
+    margin-bottom: -50px;
+    padding-top:60px;
+  }
+  .sunBtn{
+    background-color: transparent;
+    color:transparent;
+    border: 5px solid #000000;
+    border-radius: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 25px 5px;
+  }
+
+  .sunBtn:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+  }
+
+/*Lives*/
+  #lives{
+    padding-left:330px;
+    margin-bottom: -50px;
+    margin-top: -80px;
+  }
+  .livesBtn{
+    background-color: transparent;
+    color:transparent;
+    border: 5px solid #000000;
+    border-radius: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 28px 15px;
+  }
+
+  .livesBtn:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+  }
+
 
 /*tour button */
 
 #tourBtn{
+  margin:390px;
+  margin-bottom: 0px;
 	text-align: center;
-	padding-top:70px;
-	padding-right:90px;
+
 }
 .tourBtn{
 	background-color: #FFFFFF;
@@ -116,10 +172,13 @@ img{
 }
 
 .tourBtn:hover{
-	background-color: #808080;
+	background-color: black;
 	color:#FFFFFF;
+  cursor: pointer;
 
 }
+
+
 
 
 /*popup set up*/
@@ -154,8 +213,9 @@ img{
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
+  font-size: 50px;
   font-weight: bold;
+  margin:20px;
 }
 
 .close:hover,
@@ -169,12 +229,11 @@ img{
 /*Tour pop-up content*/
 #modal-content{
 	display:inline;
-	margin-top:-0px;
-
 }
 
 #slideshow-container img{
 	width:800px;
+  height:480px;
 }
 
 
@@ -182,33 +241,36 @@ img{
 #tour_txt {
 	text-align: center;
 	font-size:50px;
-	margin-top:-30px;
-	margin-bottom: -180px;
+  margin-top:0px;
+	margin-bottom: -780px;
 }
 
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: auto;
+  margin:-480px;
 }
 
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
-  margin-top: -22px;
+  top: 45%;
   color: rgba(0, 0, 0, 0.6);
   font-weight: bold;
-  font-size: 40px;
+  font-size: 100px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
 
+.prev{
+  left:200px;
+}
+
 /* Position the "next button" to the right */
 .next {
-  right: 0px;
+  right:200px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -226,7 +288,7 @@ img{
 }
 
 /* The dots/bullets/indicators */
-.dot {
+/*.dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -240,22 +302,23 @@ img{
 .active, .dot:hover {
   background-color: #717171;
 }
+*/
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .3} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .3} 
   to {opacity: 1}
 }
 
