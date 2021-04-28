@@ -55,48 +55,7 @@ body{
 	font-family: Avenir;
 }
 
-#title{
-	display: flex;
-  padding-left: 210px;
-	margin-bottom:-540px;
-  margin-top:-28px;
-  pointer-events:none;
-}
 
-#plus{
-	width:50%;
-	margin-top:0px;
-	padding-left:50px;
-}
-
-#plus h3{
-	position: relative;
-	margin-bottom:-20px;
-	font-size: 50px;
-	font-family: Avenir;
-	color: black;
-}
-
-#map{
-	width:60%;
-	margin-top:0px;
-	padding-right: 110px;
-  pointer-events:none;
-}
-
-#map h1{
-	color: #9e9c90;
-	font-size: 330px;
-  pointer-events:none;
-}
-
-#site {
-	align-items: center;
-}
-
-#site_bg{
-  padding-left:460px;
-}
 
 /*cat*/
 img{
@@ -106,7 +65,7 @@ img{
 
 /*-------------ALL BUTTONS------------*/
 /*sun button*/
-  #sunBtn{
+/*  #sunBtn{
     padding-left:1182px;
     margin-bottom: -50px;
     padding-top:60px;
@@ -125,14 +84,13 @@ img{
   .sunBtn:hover{
     background-color: black;
     color:white;
-    cursor: pointer;
   }
 
-/*Lives*/
+Lives
   #lives{
     padding-left:330px;
     margin-bottom: -50px;
-    margin-top: -80px;
+    padding-top:0px;
   }
   .livesBtn{
     background-color: transparent;
@@ -148,14 +106,13 @@ img{
   .livesBtn:hover{
     background-color: black;
     color:white;
-    cursor: pointer;
-  }
+  }*/
 
 
 /*tour button */
 
 #tourBtn{
-  margin:390px;
+  margin:500px;
   margin-bottom: 0px;
 	text-align: center;
 
@@ -174,7 +131,6 @@ img{
 .tourBtn:hover{
 	background-color: black;
 	color:#FFFFFF;
-  cursor: pointer;
 
 }
 
@@ -232,8 +188,8 @@ img{
 }
 
 #slideshow-container img{
-	width:800px;
-  height:480px;
+ width:70%;
+ margin:-80px 200px;
 }
 
 
@@ -242,14 +198,15 @@ img{
 	text-align: center;
 	font-size:50px;
   margin-top:0px;
-	margin-bottom: -780px;
+	margin-bottom: -80px;
 }
 
 
 /* Slideshow container */
 .slideshow-container {
-  margin:-480px;
 }
+
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -284,6 +241,7 @@ img{
 .numbertext {
   color: #000000;
   font-size: 20px;
+  text-align: center;
 
 }
 

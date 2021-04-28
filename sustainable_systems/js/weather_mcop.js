@@ -11,6 +11,7 @@ const green1y = 865;
 function setup(){
   canvas = createCanvas(windowWidth,windowHeight);
   canvas.style('z-index','-1');
+  canvas.position(0,0);
 }
 
 function draw() {
@@ -20,7 +21,8 @@ function draw() {
 
 //weather boxes ALL
 push();
-  translate(130, 70);
+  translate(370, 10);
+  scale(1.1);
   //boxes
   noFill();
   stroke("black");
@@ -153,7 +155,8 @@ pop();
 ////////////////////////////////////////
 //redrawing the plants on the cement pots
 push();
-translate(130,150);
+translate(-80,-70);
+scale(1.7,1.4);
 
 //grey cement on both sides
   fill("#A2A2A2");
