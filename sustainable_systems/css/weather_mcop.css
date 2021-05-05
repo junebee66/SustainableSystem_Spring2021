@@ -136,8 +136,13 @@ a:active {
 #site img{
 	width:150px;
   margin: 80px 700px;
+  margin-bottom:-20px;
 }
 
+
+#develop{
+  text-align: center;
+}
 
 /*data*/
 #data1{

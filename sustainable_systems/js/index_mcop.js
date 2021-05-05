@@ -17,6 +17,10 @@ function setup(){
   canvas.style('z-index','-3');
   noCursor();
   t = 0;
+    alert("Welcome to June's Site Map!\nA COUPLE THINGS TO KNOW BEFORE ENTER:\n  \n1. Please load this website in Chrome.\n2. The graphics take some time to load, so please be patient :)\n3. Some features in this map haven't fully developed; in replacement, there are videos in the pages showing the idea of the complete version.\n4. Click around to explore, enjoy!");
+
+
+
 }
 
 function draw() {
@@ -26,6 +30,7 @@ function draw() {
     var r = 360 * noise(t+5);
   var g = 360 * noise(t+10);
   var b = 360 * noise(t+2);
+
 
 ////////////////////////////////////////
 //redrawing the plants on the cement pots
