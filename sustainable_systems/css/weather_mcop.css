@@ -135,7 +135,7 @@ a:active {
 /*cat*/
 #site img{
 	width:150px;
-  margin: 10px 700px;
+  margin: 80px 700px;
 }
 
 
@@ -223,7 +223,7 @@ Lives
 /*tour button */
 
 #tourBtn{
-  margin:500px;
+  margin:430px;
   margin-bottom: 0px;
 	text-align: center;
 
@@ -237,11 +237,13 @@ Lives
 	font-size: 30px;
 	font-weight: bold;
 	padding: 15px 30px;
+
 }
 
 .tourBtn:hover{
 	background-color: black;
 	color:#FFFFFF;
+  cursor: pointer;
 
 }
 

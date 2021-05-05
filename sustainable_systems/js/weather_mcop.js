@@ -6,18 +6,28 @@ const boxY = 80;
 const boxH = 45;
 const green1x = 150;
 const green1y = 865;
-
+var t;
 
 function setup(){
   canvas = createCanvas(windowWidth,windowHeight);
   canvas.style('z-index','-1');
   canvas.position(0,0);
+  noCursor();
+  t = 0;
 }
 
 function draw() {
-  background("#fbf8e5");
+  background(251,248,229,50);
   noStroke();
   angleMode(DEGREES);
+    var r = 360 * noise(t+5);
+  var g = 360 * noise(t+10);
+  var b = 360 * noise(t+2);
+
+  //bubble
+  fill(r, g, b);
+  ellipse(mouseX,mouseY,50,50);
+  t = t + 0.01;
 
 //weather boxes ALL
 push();
