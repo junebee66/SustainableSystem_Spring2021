@@ -79,6 +79,9 @@ a:active {
 
 .back{
   background-color: transparent;
+  position:absolute;
+  left:0px;
+  top:0px;
   color: grey;
   border: 0px solid #000000;
   border-radius: 40px;
@@ -103,6 +106,14 @@ a:active {
   top:-130px;
 
 }*/
+
+#date{
+  display:flex;
+}
+
+#date button{
+  margin:300px;
+}
 
 .date a{
   position: absolute;
@@ -131,6 +142,52 @@ a:active {
 
 }
 
+#vid button{
+  margin-left:40%;
+}
+
+.backTBtn{
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 5px solid #000000;
+  border-radius: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+    cursor: pointer;
+}
+
+.backTBtn:hover{
+  background-color: black;
+  color:#FFFFFF;
+  cursor: pointer;
+
+}
+
+
+.vidBtn{
+  background-color: #FFFFFF;
+  position:absolute;
+  right:0px;
+  top:10px;
+  color: #000000;
+  border: 5px solid #000000;
+  border-radius: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+    cursor: pointer;
+
+}
+
+.vidBtn:hover{
+  background-color: black;
+  color:#FFFFFF;
+  cursor: pointer;
+
+}
 
 /*cat*/
 #site img{

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Weather and Time Journal</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js" integrity="sha512-gQVBYBvfC+uyor5Teonjr9nmY1bN+DlOCezkhzg4ShpC5q81ogvFsr5IV4xXAj6HEtG7M1Pb2JCha97tVFItYQ==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js" integrity="sha512-a5hlZKgpC1LVAuKgVeXdP0D9Yfacj0hLtNdzx9zFMkIWRrQyO37KtIPiqArGmVuaBYu3ON6Vt0N3+G/JaLXQYQ==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.js" integrity="sha512-KxzVm+IqxNNq0+SzT/zzd5PHxY4LPrN+v5gZJ6+JKqjeU3Cr4y/djAg5eNlKDWurn1SeKZpql/yeOMWblMSzOg==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.min.js" integrity="sha512-wM+t5MzLiNHl2fwT5rWSXr2JMeymTtixiw2lWyVk1JK/jDM4RBSFoH4J8LjucwlDdY6Mu84Kj0gPXp7rLGaDyA==" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="../css/initial_mcop.css">
+	<script src="../js/initial_mcop.js"></script>
+</head>
+<body>
+
+<!-- 	<div id="date">
+		<h1 class= "date"><a href="#data1">14th</a></h1>
+		<h3>TIME</h3>
+	</div>
+	<a href="#vid"><button class= "vidBtn">Watch Completed Version</button></a> -->
+
+	<button class="back"><a href="index_mantal _color_ of_plants.html">BACK</a></button>
+
+<!-----------------Tour------------------>
+<h2 class="w3-center">Initial Design of This Website</h2>
+
+<div id= "pics" class="w3-content w3-display-container">
+  <img class="mySlides" src="../assets/initial/initial1.jpg" style="width:100%">
+  <img class="mySlides" src="../assets/initial/initial2.jpg" style="width:100%">
+  <img class="mySlides" src="../assets/initial/initial3.jpg" style="width:100%">
+  <img class="mySlides" src="../assets/initial/initial4.jpg" style="width:100%">
+
+  <img class="mySlides" src="../assets/initial/initial5.jpg" style="width:100%">
+  <img class="mySlides" src="../assets/initial/initial6.jpg" style="width:100%">
+  <img class="mySlides" src="../assets/initial/initial7.jpg" style="width:100%">
+  <img class="mySlides" src="../assets/initial/initial8.jpg" style="width:100%">
+
+  <img class="mySlides" src="../assets/initial/initial9.jpg" style="width:100%">
+  <img class="mySlides" src="../assets/initial/initial10.jpg" style="width:100%">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+</body>
+	
+
+</html>

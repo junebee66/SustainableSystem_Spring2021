@@ -77,18 +77,31 @@ a:active {
 
 }
 
+/*mcop img*/
+img{
+  width:100%;
+}
+
 #topHeading{
   display:flex;
 }
 
 #name h1{
   text-align: center;
+  font-size: 50px;
+  margin-bottom:-5px;
 }
+
+#name h4{
+  text-align: center;
+/*  font-size: 50px;*/
+}
+
 /*center video*/
 .center { 
   display: block;
   margin: 0 auto;
-  width:80%;
+  width:75%;
 }
 
 /*back button*/
@@ -114,14 +127,24 @@ a:active {
   text-align: center;
 }
 
+#buttons{
+  margin-top: 10px;
+  display:flex;
+  padding-left:35%;
 
-#tourBtn{
-  margin:430px;
-  margin-bottom: 0px;
+}
+
+.buttons{
+  margin: 0 auto;
+}
+
+
+/*Brochure*/
+#brochureBtn{
 	text-align: center;
 
 }
-.tourBtn{
+.brochureBtn{
 	background-color: #FFFFFF;
 	color: #000000;
 	border: 5px solid #000000;
@@ -133,7 +156,7 @@ a:active {
 
 }
 
-.tourBtn:hover{
+.brochureBtn:hover{
 	background-color: black;
 	color:#FFFFFF;
   cursor: pointer;
@@ -194,8 +217,8 @@ a:active {
 }
 
 #slideshow-container img{
- width:70%;
- margin:-80px 200px;
+ width:85%;
+ margin:-40px 90px;
 }
 
 
@@ -271,7 +294,7 @@ a:active {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1s;
   animation-name: fade;
   animation-duration: 2s;
 }

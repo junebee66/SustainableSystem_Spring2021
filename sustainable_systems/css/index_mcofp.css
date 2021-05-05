@@ -85,6 +85,21 @@ body{
   color: white;
 }
 
+.initialDBtn{
+  position:absolute;
+  right:15px;
+  top:5px;
+  color: #000000;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+
+.initialDBtn:hover{
+  color:grey;
+    cursor: pointer;
+
+}
+
 .closebtn {
   margin-left: 15px;
   color: white;
