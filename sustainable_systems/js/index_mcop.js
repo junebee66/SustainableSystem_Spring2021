@@ -12,7 +12,7 @@ const green1y = 865;
 function setup(){
   canvas = createCanvas(windowWidth,windowHeight);
   canvas.position(0,0);
-  canvas.style('z-index','-1');
+  canvas.style('z-index','-3');
 }
 
 function draw() {
@@ -38,6 +38,7 @@ scale(1.7,1.4);
 
   fill("#A2A2A2");
   rect(622,508,291,134,30);
+
 
 
   //shelter bottom

@@ -44,6 +44,9 @@ table {
   border-spacing: 0;
 }
 
+script{
+  pointer-events:none;
+}
 
 head{
   pointer-events:none;
@@ -121,7 +124,7 @@ body{
 /*cat*/
 img{
 	width:150px;
-  margin: 110px 700px;
+  margin: -40px 700px;
 }
 
 /*-------------ALL BUTTONS------------*/
@@ -144,6 +147,7 @@ img{
 
   .sunBtn:hover{
     background-color: black;
+    color:white;
     cursor: pointer;
   }
   
@@ -171,11 +175,11 @@ img{
   }
 /*color*/
   #color{
-    padding-left:1209px;
-    margin-bottom: -50px;
-    margin-top:70px;
+    margin-left:1209px;
+    margin-top:70px;*/
   }
-  .color_btn{
+
+  .colorBtn{
     background-color: transparent;
     color:transparent;
     border: 5px solid #000000;
@@ -185,7 +189,8 @@ img{
     font-weight: bold;
     padding: 28px 15px;
   }
-  .color_btn:hover{
+
+  .colorBtn:hover{
     background-color: black;
     color:white;
     cursor: pointer;
@@ -194,10 +199,10 @@ img{
 /*hydro*/
   #hydro{
     padding-left:609px;
-    margin-bottom: -160px;
-    margin-top:22px;
+    margin-top:-29px;
   }
-  .hydro_btn{
+
+  .hydroBtn{
     background-color: transparent;
     color:transparent;
     border: 5px solid #000000;
@@ -207,7 +212,8 @@ img{
     font-weight: bold;
     padding: 28px 15px;
   }
-  .hydro_btn:hover{
+  
+  .hydroBtn:hover{
     background-color: black;
     color:white;
     cursor: pointer;
@@ -237,7 +243,7 @@ img{
 .tourBtn:hover{
 	background-color: black;
 	color:#FFFFFF;
-  cursor: pointer;
+  	cursor: pointer;
 
 }
 
@@ -295,23 +301,23 @@ img{
 }
 
 #slideshow-container img{
-	width:800px;
-  height:480px;
+ width:70%;
+ margin:-80px 200px;
 }
 
 
-
+/*
 #tour_txt {
 	text-align: center;
 	font-size:50px;
   margin-top:0px;
 	margin-bottom: -780px;
-}
+}*/
 
 
 /* Slideshow container */
 .slideshow-container {
-  margin:-480px;
+  /*margin:-480px;*/
 }
 
 /* Next & previous buttons */
@@ -347,6 +353,7 @@ img{
 .numbertext {
   color: #000000;
   font-size: 20px;
+  text-align: center;
 
 }
 

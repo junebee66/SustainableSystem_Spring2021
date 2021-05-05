@@ -93,7 +93,7 @@ a:active {
 }
 
 /*date*/
-#date h1{
+/*#date h1{
   position: absolute;
   font-family: Avenir;
   font-size:300px;
@@ -102,6 +102,22 @@ a:active {
   left:140px;
   top:-130px;
 
+}*/
+
+.date a{
+  position: absolute;
+  font-family: Avenir;
+  font-size:300px;
+  color:#fbf8e5;
+  -webkit-text-stroke: 2px black;
+  left:240px;
+  top:100px;
+
+}
+
+.date a:hover{
+  color:white;
+  -webkit-text-stroke: 2px grey;
 }
 
 /*time*/
@@ -117,11 +133,47 @@ a:active {
 
 
 /*cat*/
-img{
+#site img{
 	width:150px;
-  margin: 110px 700px;
+  margin: 10px 700px;
 }
 
+
+/*data*/
+#data1{
+  display:flex;
+}
+
+#data2{
+  display:flex;
+}
+
+.data img{
+  width:90%;
+}
+
+.left, .right{
+  font-size: 100px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  font-size: 100px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.data a:hover{
+  color:black;
+}
+
+.left{
+  padding-top:180px;
+  padding-right: 10px;
+}
+
+.right{
+  padding-top:180px;
+}
 /*-------------ALL BUTTONS------------*/
 /*sun button*/
 /*  #sunBtn{
