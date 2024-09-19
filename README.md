@@ -4,6 +4,8 @@ This is June's Site Map from 2021 Sustainable System Class. This website inslude
 
 [💻 DEMO](https://junebee66.github.io/SustainableSystem_Spring2021/sustainable_systems/html/index_mantal%20_color_%20of_plants.html)
 <br>
+[💻 Medium](https://medium.com/@junesthoughts/tracking-a-street-cats-life-through-sustainable-systems-a-microsystem-journey-1e9a5a2d14fc)
+<br>
 ![image is not loaded, please try again](./sustainable_systems/assets/cat-sustainable-map.gif)
 
 ## 01. Design Projects
